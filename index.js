@@ -12,16 +12,18 @@ if (!filePermValid) {
 	process.exit(1);
 }
 
-const destination = fs.createWriteStream("./dest.json")
-const source = fs.createReadStream('./source.log');
+const destination = fs.createWriteStream(mappedInputs['--output'])
+const source = fs.createReadStream(mappedInputs['--input']);
 
 source.on("ready", function () {
 	destination.write("[")
 });
+
 source.on("end", function () {
 	destination.write("{}]\n");
 	destination.close();
 });
+
 const rl = readline.createInterface({
 	input: source
 });
