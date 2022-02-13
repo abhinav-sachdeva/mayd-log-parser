@@ -1,0 +1,13 @@
+[{"timestamp":"2021-08-09T02:12:51.253Z", "logLevel":"info", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "msg":"Service is started"},
+{"timestamp":"2021-08-09T02:12:51.254Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "debug":"About to request the user information"},
+{"timestamp":"2021-08-09T02:12:51.254Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "debug":"About to request user orders list"},
+{"timestamp":"2021-08-09T02:12:51.255Z", "logLevel":"info", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "msg":"Service is started"},
+{"timestamp":"2021-08-09T02:12:51.257Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "debug":"About to request the user information"},
+{"timestamp":"2021-08-09T02:12:51.257Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "debug":"User information is gathered"},
+{"timestamp":"2021-08-09T02:12:51.258Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "debug":"About to request user orders list"},
+{"timestamp":"2021-08-09T02:12:51.259Z", "logLevel":"error", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "err":"Cannot find user orders list"},
+{"timestamp":"2021-08-09T02:12:51.259Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "debug":"User information is retrieved"},
+{"timestamp":"2021-08-09T02:12:51.262Z", "logLevel":"debug", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "debug":"User information is retrieved"},
+{"timestamp":"2021-08-09T02:12:51.264Z", "logLevel":"warn", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e978", "warn":"Service finished with error"},
+{"timestamp":"2021-08-09T02:12:51.265Z", "logLevel":"info", "transactionId":"9abc55b2-807b-4361-9dbe-aa88b1b2e821", "msg":"Service is successfully finished"},
+{}]
